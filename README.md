@@ -1,6 +1,6 @@
 # Curso de Git y GitHub
 
-Curso avanzado de **git** y** github** en el que aprendimos lo siguiente:
+Curso avanzado de **git** y **github** en el que aprendimos lo siguiente:
 
 - Comandos basicos para repositorios locales
 - Comandos para manejo de repositorios remotos
