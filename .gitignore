@@ -1,0 +1,3 @@
+# Aqui agregamos las rutas de los archivos que qeremos ignorar
+# Si queremos ignorar todos los archivos de un tipo en especifico ponemos un * (asterisco) .la_extencion_del_archivo  EJEMPLO:
+# *.jpg
