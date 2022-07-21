@@ -57,9 +57,6 @@ Curso avanzado de **git** y **github** en el que aprendimos lo siguiente:
 
 
 #### PARA EL MANEJO DE TAGS
-
-------------
-
 - `git tag -a nombreTag -m "mensaje" numeroCommit` // Agregamos un tag a un commit.
 ###### Ejemplo: git tag -a v0.1 -m "Esta es la primera version del proyecto" 6b54895
 - `git tag` // Nos muestra los tag que hemos creado.
