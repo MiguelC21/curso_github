@@ -18,7 +18,7 @@
         <div id="img">
             <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMAEN0YHueJ9KtzBZE8AbGbTXv354LHlG_NQ&usqp=CAU">
         </div>
-        <h1 id="titulo1">Notas del curso de git y github (Platzi)</h1>
+        <h1 id="titulo1">Lista de comandos de Git</h1>
     </div>
 </header>
 
@@ -26,22 +26,22 @@
     <div id="contenedor">
         <!-- Menu -->
         <div id="menu">
-            <p class="menuItem">Iniciando</p>
-            <p class="menuItem">Comandos basicos</p>
-            <p class="menuItem">Repositorios remotos</p>
-            <p class="menuItem">Tags</p>
-            <p class="menuItem">Interfas grafica</p>
-            <p class="menuItem">Solucion de errores</p>
-            <p class="menuItem">Recursos colaborativos</p>
-            <p class="menuItem">Creacion de alias</p>
-            <p class="menuItem">Obener ayuda</p>
-            <p class="menuItem">.gitignore</p>
+            <a href="#t1"><p class="menuItem" >Iniciando</p></a>
+            <a href="#t2"><p class="menuItem">Comandos basicos</p></a>
+            <a href="#t3"><p class="menuItem">Repositorios remotos</p></a>
+            <a href="#t4"><p class="menuItem">Tags</p></a>
+            <a href="#t5"><p class="menuItem">Interfas grafica</p></a>
+            <a href="#t6"><p class="menuItem">Solucion de errores</p></a>
+            <a href="#t7"><p class="menuItem">Recursos colaborativos</p></a>
+            <a href="#t8"><p class="menuItem">Creacion de alias</p></a>
+            <a href="#t9"><p class="menuItem">Obener ayuda</p></a>
+            <a href="#t10"><p class="menuItem">.gitignore</p></a>
         </div>
 
         <!-- Contenido -->
         <div id="contenido">
 
-            <h1 class="titulo2">INICIANDO</h1>
+            <h1 class="titulo2" id="t1">INICIANDO</h1>
             <p>Para iniciar git en un proyecto (ésta acción se realiza una vez por proyecto):</p>
             <p class="codigo">git init</p>
             <p>Antes de continuar vamos a configurar nuestro nombre y email, para ello ejecutamos el comando:</p>
@@ -50,7 +50,7 @@
 
             <div class="separador"></div>
             
-            <h1 class="titulo2">COMANDOS BASICOS DE GIT</h1>
+            <h1 class="titulo2" id="t2">COMANDOS BASICOS DE GIT</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git init</p>// Inicia un repositorio local.</p></li>
                 <li><p class="line"><p class="codigo line">git add .</p>// Añade los ficheros al Seguimiento.</p></li>
@@ -68,7 +68,7 @@
 
 
 
-            <h1 class="titulo2">TRABAJANDO CON REPOSITORIOS REMOTOS</h1>
+            <h1 class="titulo2" id="t3">TRABAJANDO CON REPOSITORIOS REMOTOS</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git remote add origin url</p>// Direcion del git</p></li>
                 <li><p class="line"><p class="codigo line">git pull --rebase origin main</p>// Combinar los repositorios por primera vez</p></li>
@@ -86,7 +86,7 @@
 
 
 
-            <h1 class="titulo2">MANEJO DE TAGS</h1>
+            <h1 class="titulo2" id="t4">MANEJO DE TAGS</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git tag -a nombreTag -m "mensaje" numeroCommit</p>// Agregamos un tag a un commit.</p></li>
             </ul>
@@ -102,14 +102,14 @@
 
 
 
-            <h1 class="titulo2">GRAFICA EXTERNA DE GIT</h1>
+            <h1 class="titulo2" id="t5">GRAFICA EXTERNA DE GIT</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">gitk</p>// Nos habre una interfas externa donde nos muestra graficamente la historia de nuetro proyecto.</p></li>
             </ul>
 
 
 
-            <h1 class="titulo2">SOLUCION DE ERRORES</h1>
+            <h1 class="titulo2" id="t6">SOLUCION DE ERRORES</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git rebase nombreRama</p>// sirve para fusionar 2 ramas pero sin dejar rastros (se debe hacer primero rebase a la rama que se quiere fucionar y luego en la rama original o de destino).</p></li>
                 <li><p class="line"><p class="codigo line">git stash</p>// Sirve para volver al estado anterior al que estabamos antes de modificar un archivo al que no hemos agregado al stalling.</p></li>
@@ -130,7 +130,7 @@
 
 
 
-            <h1 class="titulo2">COMANDOS Y RECURSOS COLABORATIVOS</h1>
+            <h1 class="titulo2" id="t7">COMANDOS Y RECURSOS COLABORATIVOS</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git shortlog</p>// Nos muestra la lista de personas que a trabajado en el proyecto y los commits que a realizado.</p></li>
                 <li><p class="line"><p class="codigo line">git shortlog -sn</p>// Nos muetra el numero de commits que a realizado uns persona incluyendo merges.</p></li>
@@ -142,21 +142,21 @@
 
 
 
-            <h1 class="titulo2">CREACION DE ALIAS</h1>
+            <h1 class="titulo2" id="t8">CREACION DE ALIAS</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git config --global alias.nombreAlias "Comandos a llamar(sin incluir la palabra git)"</p>//Creamos un alias para una serie de comandos la cual podemos llamar de la siguiente manera: git nombreAlias.</p></li>
             </ul>
 
 
 
-            <h1 class="titulo2">OBTENER AYUDA</h1>
+            <h1 class="titulo2" id="t9">OBTENER AYUDA</h1>
             <ul>
                 <li><p class="line"><p class="codigo line">git nombreDelComando --help</p>// Nos muestra una ayuda del comando que pongamos.</p></li>
             </ul>
 
             <div class="separador"></div>
 
-            <h1 class="titulo2">IGNORAR ARCHIVOS DE NUESTRO REPOSITORIO</h1>
+            <h1 class="titulo2" id="t10">(.gitignore) IGNORAR ARCHIVOS DE NUESTRO REPOSITORIO</h1>
             <p style="margin-left: 25px;">Para hacer que git nos ignore un archivo del proecto debemos crear el archivo .gitignore. Luego de crearlo lo abrimos y agregamos la ruta del archivo que queremos que git nos ignore.</p>
 
         </div>
@@ -164,7 +164,7 @@
 </body>
 
 <footer>
-    &lt;3... Notas ...&lt;3
+    Notas del curso de git y github (Platzi)
 </footer>
 
 </html>
