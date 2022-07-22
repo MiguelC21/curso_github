@@ -42,122 +42,121 @@
         <div id="contenido">
 
             <h1 class="titulo2" id="t1">INICIANDO</h1>
-            <p>Para iniciar git en un proyecto (ésta acción se realiza una vez por proyecto):</p>
-            <p class="codigo">git init</p>
-            <p>Antes de continuar vamos a configurar nuestro nombre y email, para ello ejecutamos el comando:</p>
-            <p class="codigo">git config --global user.name 'tu nombre'</p>
-            <p class="codigo">git config --global user.email 'tu@email.com'</p>
+            <p class="line">Para iniciar git en un proyecto (ésta acción se realiza una vez por proyecto):</p>
+            <p class="codigo line">git init</p>
+            <p class="line">Antes de continuar vamos a configurar nuestro nombre y email, para ello ejecutamos el comando:</p>
+            <p class="codigo line">git config --global user.name 'tu nombre'</p>
+            <p class="codigo line">git config --global user.email 'tu@email.com'</p>
 
             <div class="separador"></div>
             
             <h1 class="titulo2" id="t2">COMANDOS BASICOS DE GIT</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git init</p>// Inicia un repositorio local.</p></li>
-                <li><p class="line"><p class="codigo line">git add .</p>// Añade los ficheros al Seguimiento.</p></li>
-                <li><p class="line"><p class="codigo line">git status -s</p>// Comprueba el stado de seguimiento de archivos stalling.</p></li>
-                <li><p class="line"><p class="codigo line">git commit -m</p>// Commit los cambios.</p></li>
-                <li><p class="line"><p class="codigo line">git branch nombreRama</p>// Crear una nueva rama.</p></li>
-                <li><p class="line"><p class="codigo line">git branch -m nombreRama nombreNuevo</p>// Cambiar el nombre de una rama.</p></li>
-                <li><p class="line"><p class="codigo line">git branch -d nombreRama</p>// Borrar rama (solo ramas ya fucionadas).</p></li>
-                <li><p class="line"><p class="codigo line">git branch -D nombreRama</p>// Borrar rama sin importar si no ha sido fucionada aun.</p></li>
-                <li><p class="line"><p class="codigo line">git branch</p>// Ver la rama en la que estoy y las ramas locales.</p></li>
-                <li><p class="line"><p class="codigo line">git branch -a</p>// Ver la rama en la que estoy y las ramas en el repositorio remoto.</p></li>
-                <li><p class="line"><p class="codigo line">git branch -r</p>// Ver las ramas del repositorio remoto.</p></li>
-                <li><p class="line"><p class="codigo line">git branch -M nombreRama</p>// Selecciona la rama en la que se quiere trabajar.</p></li>
+                <li><p class="line"><p class="codigo line">git init</p><p class="line">// Inicia un repositorio local.</p></p></li>
+                <li><p class="line"><p class="codigo line">git add .</p><p class="line">// Añade los ficheros al Seguimiento.</p></p></li>
+                <li><p class="line"><p class="codigo line">git status -s</p><p class="line">// Comprueba el stado de seguimiento de archivos stalling.</p></p></li>
+                <li><p class="line"><p class="codigo line">git commit -m</p><p class="line">// Commit los cambios.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch nombreRama</p><p class="line">// Crear una nueva rama.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch -m nombreRama nombreNuevo</p><p class="line">// Cambiar el nombre de una rama.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch -d nombreRama</p><p class="line">// Borrar rama (solo ramas ya fucionadas).</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch -D nombreRama</p><p class="line">// Borrar rama sin importar si no ha sido fucionada aun.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch</p><p class="line">// Ver la rama en la que estoy y las ramas locales.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch -a</p><p class="line">// Ver la rama en la que estoy y las ramas en el repositorio remoto.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch -r</p><p class="line">// Ver las ramas del repositorio remoto.</p></p></li>
+                <li><p class="line"><p class="codigo line">git branch -M nombreRama</p><p class="line">// Selecciona la rama en la que se quiere trabajar.</p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t3">TRABAJANDO CON REPOSITORIOS REMOTOS</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git remote add origin url</p>// Direcion del git</p></li>
-                <li><p class="line"><p class="codigo line">git pull --rebase origin main</p>// Combinar los repositorios por primera vez</p></li>
-                <li><p class="line"><p class="codigo line">git push origin nombreRama</p>// Enviar nuestros cambios al repositorio remoto</p></li>
-                <li><p class="line"><p class="codigo line">git pull origin nombreRama</p>// Descarga los últimos cambios del repositorio remoto</p></li>
-                <li><p class="line"><p class="codigo line">git clone 'url o ssh'</p>// Clona, o realizar una copia desde el repositorio remoto al local para repositorios que ya contienen archivos.</p></li>
-                <li><p class="line"><p class="codigo line">git checkout nombreRama</p>// Movernos entre ramas</p></li>
-                <li><p class="line"><p class="codigo line">git merge nombreRamaAFucionar</p>// Fucionar la rama actualcon la rama que acavamos de monbrar</p></li>
+                <li><p class="line"><p class="codigo line">git remote add origin url</p><p class="line">// Direcion del git.</p></p></li>
+                <li><p class="line"><p class="codigo line">git pull --rebase origin main</p><p class="line">// Combinar los repositorios por primera vez.</p></p></li>
+                <li><p class="line"><p class="codigo line">git push origin nombreRama</p><p class="line">// Enviar nuestros cambios al repositorio remoto.</p></p></li>
+                <li><p class="line"><p class="codigo line">git pull origin nombreRama</p><p class="line">// Descarga los últimos cambios del repositorio remoto</p></p></li>
+                <li><p class="line"><p class="codigo line">git clone 'url o ssh'</p><p class="line">// Clona, o realizar una copia desde el repositorio remoto al local para repositorios que ya contienen archivos.</p></p></li>
+                <li><p class="line"><p class="codigo line">git checkout nombreRama</p><p class="line">// Movernos entre ramas</p></p></li>
+                <li><p class="line"><p class="codigo line">git merge nombreRamaAFucionar</p><p class="line">// Fucionar la rama actualcon la rama que acavamos de monbrar</p></p></li>
             </ul>
-            <p style="margin-top: 20px; margin-bottom: 20px; color: gray;">...Hacer un FORK</p>
+            <p class="line" style="margin-top: 20px; margin-bottom: 20px; color: gray;">...Hacer un FORK</p>
             <ul>
-                <li><p class="line"><p class="codigo line">git remote add upstream url del proyecto al que se le hizo un fork</p>// (La palabra upstream es opcional. puede ser cualquier cosa) Este comando se utiliza para poder traer los datos de la fuente original del proyecto a nuetro proyecto local furkeado.</p></li>
-                <li><p class="line"><p class="codigo line">git remote -v</p>// Miramos las fuentes de datos de donde podemos traer los cambios a nuetro proyecto.</p></li>
+                <li><p class="line"><p class="codigo line">git remote add upstream url del proyecto al que se le hizo un fork</p><p class="line">// (La palabra upstream es opcional. puede ser cualquier cosa) Este comando se utiliza para poder traer los datos de la fuente original del proyecto a nuetro proyecto local furkeado.</p></p></li>
+                <li><p class="line"><p class="codigo line">git remote -v</p><p class="line">// Miramos las fuentes de datos de donde podemos traer los cambios a nuetro proyecto.</p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t4">MANEJO DE TAGS</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git tag -a nombreTag -m "mensaje" numeroCommit</p>// Agregamos un tag a un commit.</p></li>
+                <li><p class="line"><p class="codigo line">git tag -a nombreTag -m "mensaje" numeroCommit</p><p class="line">// Agregamos un tag a un commit.</p></p></li>
             </ul>
-            <p style="margin-left: 45px; margin-top: 10px; margin-bottom: 10px; color: gray;">Ejemplo: git tag -a v0.1 -m "Esta es la primera version del proyecto" 6b54895</p>
+            <p class="line" style="margin-left: 45px; margin-top: 10px; margin-bottom: 10px; color: gray;">Ejemplo: git tag -a v0.1 -m "Esta es la primera version del proyecto" 6b54895</p>
             <ul>
-                <li><p class="line"><p class="codigo line">git tag</p>// Nos muestra los tag que hemos creado.</p></li>
-                <li><p class="line"><p class="codigo line">git tag show-ref</p>// Nos muetra los tags y los commits a los que estan asociados.</p></li>
-                <li><p class="line"><p class="codigo line">git tag -d nombreTag</p>//Eliminamos el tag en el repositorio local.</p></li>
-                <li><p class="line"><p class="codigo line">git push origin --tags</p>//Subimos nuestros tags al repositorio remoto.</p></li>
-                <li><p class="line"><p class="codigo line">git pull origin --tags</p>//Trae los tags del repositorio remoto.</p></li>
-                <li><p class="line"><p class="codigo line">git push origin :refs/tags/nombreTag</p>//Eliminamos el tag del repositorio remoto.</p></li>
+                <li><p class="line"><p class="codigo line">git tag</p><p class="line">// Nos muestra los tag que hemos creado.</p></p></li>
+                <li><p class="line"><p class="codigo line">git tag show-ref</p><p class="line">// Nos muetra los tags y los commits a los que estan asociados.</p></p></li>
+                <li><p class="line"><p class="codigo line">git tag -d nombreTag</p><p class="line">//Eliminamos el tag en el repositorio local.</p></p></li>
+                <li><p class="line"><p class="codigo line">git push origin --tags</p><p class="line">//Subimos nuestros tags al repositorio remoto.</p></p></li>
+                <li><p class="line"><p class="codigo line">git pull origin --tags</p><p class="line">//Trae los tags del repositorio remoto.</p></p></li>
+                <li><p class="line"><p class="codigo line">git push origin :refs/tags/nombreTag</p><p class="line">//Eliminamos el tag del repositorio remoto.</p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t5">GRAFICA EXTERNA DE GIT</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">gitk</p>// Nos habre una interfas externa donde nos muestra graficamente la historia de nuetro proyecto.</p></li>
+                <li><p class="line"><p class="codigo line">gitk</p><p class="line">// Nos habre una interfas externa donde nos muestra graficamente la historia de nuestro proyecto.</p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t6">SOLUCION DE ERRORES</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git rebase nombreRama</p>// sirve para fusionar 2 ramas pero sin dejar rastros (se debe hacer primero rebase a la rama que se quiere fucionar y luego en la rama original o de destino).</p></li>
-                <li><p class="line"><p class="codigo line">git stash</p>// Sirve para volver al estado anterior al que estabamos antes de modificar un archivo al que no hemos agregado al stalling.</p></li>
-                <li><p class="line"><p class="codigo line">git stash list</p>// Me permite ver la lista de copias de stash de WIP (Wrok In Progress) al que le hice stash.</p></li>
-                <li><p class="line"><p class="codigo line">git stash pop</p>// Me devuelve los cambios que tenia en WIP.</p></li>
-                <li><p class="line"><p class="codigo line">git stash branch nombreRama</p>// podemos llevarnos lo que tenemos en stash a una nueva rama.</p></li>
-                <li><p class="line"><p class="codigo line">git stash drop</p>// borro la lista de stash.</p></li>
-                <li><p class="line"><p class="codigo line">git clean --dry-run</p>//Este comando nos muestra la lista de archivos que hallamos duplicado por error en nuestro repositorio a expcion de carpetas y archivos que esten dentro del archivo .gitignore.</p></li>
-                <li><p class="line"><p class="codigo line">git clean -f</p>// Nos borra la lista de archivos duplicados que se nuestran con el comando anterior</p></li>
-                <li><p class="line"><p class="codigo line">git cherry-pick numeroCommit</p>// Nos sirve para agregar un commit en especifico de una rama a otra.</p></li>
-                <li><p class="line"><p class="codigo line">git reflog</p>// Nos muestra el historial de absolutamente todo lo que hemos realizado en git (Podemos regresar a cualquiera de punto del historial haciendo un git reset --hard numeroCommit).</p></li>
-                <li><p class="line"><p class="codigo line">git commit --amend -m"nombrarCommit"</p>// Agregas cambios nuevos al ultimo commit que subí.</p></li>
-                <li><p class="line"><p class="codigo line">git grep palabraABuscar</p>// Nor permite buscar una palabra en todo nuestro repositorio (solo los busca en la rama que estemos actualmente).</p></li>
-                <li><p class="line"><p class="codigo line">git grep -n palabraABuscar</p>// Nor permite buscar una palabra en todo nuestro repositorio con la linea y el archivo en que se encuentra.</p></li>
-                <li><p class="line"><p class="codigo line">git grep -c palabraABuscar</p>// Nos cuenta el total y el numero de veces que se encuentra la palabra en nuestro repositorio.</p></li>
-                <li><p class="line"><p class="codigo line">git log -S "palabraABuscar"</p>// Busca resultados de la palabra asociados a nuestros commits.</p></li>
+                <li><p class="line"><p class="codigo line">git rebase nombreRama</p><p class="line">// sirve para fusionar 2 ramas pero sin dejar rastros (se debe hacer primero rebase a la rama que se quiere fucionar y luego en la rama original o de destino).</p></p></li>
+                <li><p class="line"><p class="codigo line">git stash</p><p class="line">// Sirve para volver al estado anterior al que estabamos antes de modificar un archivo al que no hemos agregado al stalling.</p></p></li>
+                <li><p class="line"><p class="codigo line">git stash list</p><p class="line">// Me permite ver la lista de copias de stash de WIP (Wrok In Progress) al que le hice stash.</p></p></li>
+                <li><p class="line"><p class="codigo line">git stash pop</p><p class="line">// Me devuelve los cambios que tenia en WIP.</p></p></li>
+                <li><p class="line"><p class="codigo line">git stash branch nombreRama</p><p class="line">// podemos llevarnos lo que tenemos en stash a una nueva rama.</p></p></li>
+                <li><p class="line"><p class="codigo line">git stash drop</p><p class="line">// borro la lista de stash.</p></p></li>
+                <li><p class="line"><p class="codigo line">git clean -f</p><p class="line">// Nos borra la lista de archivos duplicados que se nuestran con el comando anterior</p></p></li>
+                <li><p class="line"><p class="codigo line">git cherry-pick numeroCommit</p><p class="line">// Nos sirve para agregar un commit en especifico de una rama a otra.</p></p></li>
+                <li><p class="line"><p class="codigo line">git reflog</p><p class="line">// Nos muestra el historial de absolutamente todo lo que hemos realizado en git (Podemos regresar a cualquiera de punto del historial haciendo un git reset --hard numeroCommit).</p></p></li>
+                <li><p class="line"><p class="codigo line">git commit --amend -m"nombrarCommit"</p><p class="line">// Agregas cambios nuevos al ultimo commit que subí.</p></p></li>
+                <li><p class="line"><p class="codigo line">git grep palabraABuscar</p><p class="line">// Nor permite buscar una palabra en todo nuestro repositorio (solo los busca en la rama que estemos actualmente).</p></p></li>
+                <li><p class="line"><p class="codigo line">git grep -n palabraABuscar</p><p class="line">// Nor permite buscar una palabra en todo nuestro repositorio con la linea y el archivo en que se encuentra.</p></p></li>
+                <li><p class="line"><p class="codigo line">git grep -c palabraABuscar</p><p class="line">// Nos cuenta el total y el numero de veces que se encuentra la palabra en nuestro repositorio.</p></p></li>
+                <li><p class="line"><p class="codigo line">git log -S "palabraABuscar"</p><p class="line">// Busca resultados de la palabra asociados a nuestros commits.</p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t7">COMANDOS Y RECURSOS COLABORATIVOS</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git shortlog</p>// Nos muestra la lista de personas que a trabajado en el proyecto y los commits que a realizado.</p></li>
-                <li><p class="line"><p class="codigo line">git shortlog -sn</p>// Nos muetra el numero de commits que a realizado uns persona incluyendo merges.</p></li>
-                <li><p class="line"><p class="codigo line">git shortlog -sn --all</p>// Nos muestra el numero total de commits realizados por cada uno de los integrantes del equipo incluidos los que aya borrado.</p></li>
-                <li><p class="line"><p class="codigo line">git git shortlog -sn --all --no-merges</p>// Muestra lo mismo que la lista anterior pero sin incluir los merges.</p></li>
-                <li><p class="line"><p class="codigo line">git blame -c nombreArchivo</p>// Nos muestra las modificaciones que a tenido un archivo y las personas que lo modificaron.</p></li>
-                <li><p class="line"><p class="codigo line">git blame nombreArchivo -L numeroLinea, numeroLinea -c</p>// Nos muestra solo las modificaciones que tuvo el archivo en el rango de lineas marcadas.</p></li>
+                <li><p class="line"><p class="codigo line">git shortlog</p><p class="line">// Nos muestra la lista de personas que a trabajado en el proyecto y los commits que a realizado.</p></p></li>
+                <li><p class="line"><p class="codigo line">git shortlog -sn</p>/<p class="line">// Nos muetra el numero de commits que a realizado uns persona incluyendo merges.</p></p></li>
+                <li><p class="line"><p class="codigo line">git shortlog -sn --all</p><p class="line">// Nos muestra el numero total de commits realizados por cada uno de los integrantes del equipo incluidos los que aya borrado.</p></p></li>
+                <li><p class="line"><p class="codigo line">git git shortlog -sn --all --no-merges</p><p class="line">// Muestra lo mismo que la lista anterior pero sin incluir los merges.</p></p></li>
+                <li><p class="line"><p class="codigo line">git blame -c nombreArchivo</p><p class="line">// Nos muestra las modificaciones que a tenido un archivo y las personas que lo modificaron.</p></p></li>
+                <li><p class="line"><p class="codigo line">git blame nombreArchivo -L numeroLinea, numeroLinea -c</p><p class="line">// Nos muestra solo las modificaciones que tuvo el archivo en el rango de lineas marcadas.</p></p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t8">CREACION DE ALIAS</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git config --global alias.nombreAlias "Comandos a llamar(sin incluir la palabra git)"</p>//Creamos un alias para una serie de comandos la cual podemos llamar de la siguiente manera: git nombreAlias.</p></li>
+                <li><p class="line"><p class="codigo line">git config --global alias.nombreAlias "Comandos a llamar(sin incluir la palabra git)"</p><p class="line">// Creamos un alias para una serie de comandos la cual podemos llamar de la siguiente manera: git nombreAlias.</p></p></li>
             </ul>
 
 
 
             <h1 class="titulo2" id="t9">OBTENER AYUDA</h1>
             <ul>
-                <li><p class="line"><p class="codigo line">git nombreDelComando --help</p>// Nos muestra una ayuda del comando que pongamos.</p></li>
+                <li><p class="line"><p class="codigo line">git nombreDelComando --help</p><p class="line">// Nos muestra una ayuda del comando que pongamos.</p></p></li>
             </ul>
 
             <div class="separador"></div>
 
             <h1 class="titulo2" id="t10">(.gitignore) IGNORAR ARCHIVOS DE NUESTRO REPOSITORIO</h1>
-            <p style="margin-left: 25px;">Para hacer que git nos ignore un archivo del proecto debemos crear el archivo .gitignore. Luego de crearlo lo abrimos y agregamos la ruta del archivo que queremos que git nos ignore.</p>
+            <p class="line" style="margin-left: 25px;">Para hacer que git nos ignore un archivo del proecto debemos crear el archivo .gitignore. Luego de crearlo lo abrimos y agregamos la ruta del archivo que queremos que git nos ignore.</p>
 
         </div>
     </div>
